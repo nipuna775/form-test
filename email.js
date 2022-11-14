@@ -2,7 +2,7 @@ const btn = document.querySelector('button')
 
 const inputs = document.querySelector('form')
 
-btn.addEventListener('click',() =>{
+btn.addEventListener('click', function() {
 Email.send({
     Host:"smtp.mailtrap.io",
     Username:"c32e131550aecb",
